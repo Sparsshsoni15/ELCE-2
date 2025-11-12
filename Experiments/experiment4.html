@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration Form</title>
+</head>
+<body>
+<h2><b>Student Registration Form</b></h2>
+<form method="post" action="submit.html">
+<!--NAME-->
+<label for="fullname">Full Name:</label>
+<input type="text" name="fullname" placeholder="Enter your full name" required>
+</input>
+<br><br>
+
+<!--EMAIL WITH VALIDATION-->
+<label for="email">Email:</label>
+<input type="email" name="email" placeholder="Enter valid email address" required>
+</input>
+<br><br>
+
+
+<!--PASSWORD-->
+<label for="password">Password:</label>
+<input type="password" name="password" placeholder="Enter password" required>
+</input>
+<br><br>
+
+
+<!--GENDER(RADIO BUTTONS)-->
+<label for="gender">Gender:</label>
+<input type="radio" name="gender" value="male" required> Male
+<input type="radio" name="gender" value="female" required> Female
+</input>
+<br><br>
+
+<!--COURSE SELECTION(DROPDOWN)-->
+<label for="course">Course:</label>
+<select name="corse" required>
+<option value="">--Select Course--</option>
+<option value="btech">BTech</option>
+<option value="Mba">MBA</option>
+<option value="Mtech">MTech</option>
+<option value="Bca">BCA</option>
+</select>
+<br><br>
+
+<!--CONTACT NUMBER-->
+<label for="contact">Contact:</label>
+<input type="tel" name="contact" placeholder="Enter your number" required>
+</input>
+<br><br>
+
+<!--ADDRESS-->
+<label for="address">Address:</label>
+<textarea name="address" rows="5" cols="30" placeholder="Enter your address" required></textarea>
+<br><br>
+
+<!--SUBMIT AND RESET-->
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+</form>
+<p>&copy; 2025 Student Registration Portal</p>
+
+<h4><b>Name: SPARSH SONI</b></h4>
+<h4><b>Admission no.: 2025B02310030</b></h4>
+<h4><b>Class: ELCE 2</b></h4>
+
+</body>
+</html>
