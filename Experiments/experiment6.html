@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Ecommerce Product Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; 
+        }
+
+        .product-container {
+            width: 300px; 
+            margin: 50px auto;
+            padding: 20px; 
+            border: 1px solid #dddddd; 
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+        .product-image {
+            width: 100% ; 
+            height: 300px; 
+            object-fit: cover;
+            border-radius: 10px; 
+            margin-bottom: 20px; 
+        }
+
+        .product-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #060606;
+            margin: 0 0 10px 0;
+        }
+
+        .product-price {
+            font-size: 20px; 
+            color: #c50c02;
+            margin: 0 0 15px 0; 
+        }
+        .product-description {
+            font-size: 16px;
+            color: #464545;
+            margin: 0 0 20px 0;
+            line-height: 1.5;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 48%;
+        }
+
+        .add-to-cart {
+            background-color: #007bff;
+        }
+
+        .buy-now {
+            background-color: #28a745;
+        }
+
+        .button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-container">
+        <img src="../images/white sneakers image.jpg" 
+        alt="Product Image" class="product-image">
+        
+        <h2 class="product-title">PUMA Caven 2.0 Res Sneakers For Men</h2>
+        
+        <p class="product-price">₹6,499</p>
+        
+        <p class="product-description">Stride into the sneakerhead scene with the PUMA Caven 2.0 Res Unisex Sneakers. Flaunting a sleek and leather upper with strategic perforations and a mix of tumbled and clean texture, these shoes are all about merging classic style with a breath of fresh air. The PUMA cat logo stands out, leaving an impression of iconic branding, while the sturdy rubber outsole provides reliable grip for urban explorations. DETAILS : Heel type : Flat Shoe width : Regular fit Shoe pronation : Neutral Heel-to-toe-drop : 0 mm Leather upper Perforation details on the vamp Rubber outsole Low boot Lace closure PUMA Cat logo branding PUMA Formstrip on lateral side.</p>
+        
+        <div class="button-container">
+            <button class="button add-to-cart">Add to Cart</button>
+            <button class="button buy-now">Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
