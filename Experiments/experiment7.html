@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Menu Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            display: block;
+        }
+
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        nav a {
+            display: inline-block; 
+            padding: 10px 20px;
+            margin-right: 10px;
+            background-color: #1297da;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+
+        .clear {
+            clear: both;
+        }
+
+        .inline-text span {
+            display: inline;
+            color: red;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            background: #fafafa;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Webpage Navigation Menu</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+
+        <div class="clear"></div>
+    </nav>
+
+    <section>
+        <h2>Welcome!</h2>
+        <p class="inline-text">
+            This is an example of <span>inline</span> text inside a paragraph.
+        </p>
+        <p>
+            The navigation bar above uses <b>inline-block</b>, <b>float</b>, and <b>clear</b> properties.
+        </p>
+    </section>
+
+    <footer>
+        © 2025 My Website
+    </footer>
+
+</body>
+</html>
